@@ -1,0 +1,45 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f1f5f9;
+}
+
+.app {
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.profile-card {
+  background: white;
+  max-width: 400px;
+  margin: 25px auto;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px #00000015;
+}
+
+.badge {
+  background: #dbeafe;
+  color: #1e40af;
+  padding: 7px 12px;
+  border-radius: 15px;
+  font-size: 14px;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+button {
+  margin: 8px;
+  padding: 8px 18px;
+  border: none;
+  border-radius: 6px;
+  background: #2563eb;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+}
